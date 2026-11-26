@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Local llama.cpp",
+    "vendor": "customendpoint",
+    "apiKey": "none",
+    "apiType": "chat-completions",
+    "models": [
+      {
+        "id": "qwen3.8-27b-32k",
+        "name": "Qwen 3.8 27B (32k Standard)",
+        "url": "http://127.0.0.1:8080/v1/chat/completions",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 28672,
+        "maxOutputTokens": 4096
+      },
+      {
+        "id": "qwen3.8-27b-64k",
+        "name": "Qwen 3.8 27B (64k Extended)",
+        "url": "http://127.0.0.1:8080/v1/chat/completions",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 61440,
+        "maxOutputTokens": 4096
+      }
+    ]
+  }
+]
